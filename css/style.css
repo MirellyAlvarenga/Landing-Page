@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background-color: #9DC08B;
+    display: flex;
+    margin-top: 4rem;
+    margin-right: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#principal {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EDF1D6;
+    width: 65rem;
+    height: 30rem;
+}
+
+#principal2 {
+  
+    width: 35rem;
+    height: 30rem;
+    /*isso serve pra dizer que esse container vai ser 40% maior que o outro*/
+    flex: 1.4;
+    /*serve pra dar espaçamento na borda*/
+    padding: 1rem 1rem;
+}
+
+.area-de-logo {
+    display: flex;
+    align-items: start;
+    font-size: 0.8rem;
+    /*1 rem é igual a 16px, e ambos são unidades de medida do CSS*/
+    margin-bottom: 1rem;
+}
+
+.area-de-logo img {
+    height: 50px;
+    margin-right: 0.6rem;
+}
+
+.area-de-logo p {
+    color: #000;
+    margin-top: 1rem;
+    font-style: bold;
+    font-size: larger;
+}
+
+.central {
+    font-size: xx-large;
+    margin-top: 4rem;
+    margin: 4rem;
+    max-width: 300px;
+}
+
+#botao1 {
+    display: flex;
+    width: 120px;
+    height: 2rem;
+    margin-top: 2rem;
+    background-color: #000;
+    padding: 0.5rem 0.5rem;
+}
+
+#botao1 p {
+    color: #EDF1D6;
+    font-size: small;
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#botao2 {
+    font-size: small;
+    margin-top: 2rem;
+    font-style: bold;
+    padding: 0.5rem 0.5rem;
+
+}
+
+#login {
+    display: flex;
+    width: 2rem;
+}
+
+
+#login img {
+
+    margin-left: 23rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+#imagem{
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    
+}
